@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melvin Sköld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/img/Logo.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <a href="./index.html"><img src="./Assets/img/Logo.svg" alt="logo" srcset=""></a>
+            <div id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="./index.html">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+          </div>
+    </nav>
+        <video controls autoplay loop muted id="video">
+            <source src="./Assets/vid/Main.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div id="background" class="" onclick="closeVideo()"></div>
+        <div id="exit-icon" onclick="closeVideo()">
+            <div></div>
+            <div></div>
+        </div>
+    <div class="wrapper">
+        <section class="s1">
+            <div class="text-wrapper">
+                <h2 class="headline">Melvin Sköld</h2>
+                <h4>Motion Designer</h4>
+            </div>
+            <div class="button-wrapper">
+                <button class="primary-button" onclick="playVideo()">Play Showreel <img src="./Assets/icons/play-icon.svg" class="icon-large" alt="arrow" srcset=""></button>
+                <button class="secondary-button" onclick="myFunction()">Contact Me <img src="./Assets/icons/arrow-down.svg" class="icon-large" alt="arrow" srcset=""></button>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="line"></div>
+            <h2>My Work</h2>
+            <div class="work-container">
+                <button class="item" id="item1" onclick="location.href='project1.html'">
+                    <div class="top-info">
+                        <p>Health Coach</p>
+                        <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="arrow" srcset="">
+                    </div>
+                    <div class="bottom-info">
+                        <h3>Puls - Innovation</h3>
+                        <div class="line"></div>
+                        <h4>Motion Design & Ui/Ux</h4>
+                    </div>
+                </button>
+                <button class="item" id="item2"  onclick="location.href='project2.html'">
+                    <div class="top-info">
+                        <p>Logo</p>
+                        <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="arrow" srcset="">
+                    </div>
+                    <div class="bottom-info">
+                        <h3>Social Media Campaign</h3>
+                        <div class="line"></div>
+                        <h4>Motion Design</h4>
+                    </div>
+                </button>
+                <button class="item" id="item3" onclick="location.href='project3.html'">
+                    <div class="top-info">
+                        <p>Logo</p>
+                        <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="arrow" srcset="">
+                    </div>
+                    <div class="bottom-info">
+                        <h3>Social Media Campaign</h3>
+                        <div class="line"></div>
+                        <h4>Motion Design</h4>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="line"></div>
+            <h2>Education</h2>
+            <div class="education-wrapper">
+            <div class="primary-card fade-in">
+                <div class="top-info">
+                    <h4>Estetik & Media</h4>
+                    <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="arrow" srcset="">
+                </div>
+                <div class="top-info">
+                    <p class="small-text">NTI Johanneberg</p>
+                    <p class="small-text">2020-2023</p>
+                </div>
+            </div>
+            <div class="secondary-card fade-in">
+                <div class="top-info">
+                    <h4>Digital Design</h4>
+                    <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="arrow" srcset="">
+                </div>
+                <div class="top-info">
+                    <p class="small-text">Yrgo</p>
+                    <p class="small-text">(2024-2026) Ongoing</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="s4">
+            <div class="line"></div>
+            <h2>Experiences</h2>
+            <div class="experience-wrapper">
+            <div class="non-clickable-card fade-in">
+                <div class="top-info">
+                    <h4>Adobe Photoshop</h4>
+                </div>
+                <div class="top-info">
+                    <p class="small-text">8+ Years</p>
+                    <p class="small-text">-2016</p>
+                </div>
+            </div>
+            <div class="non-clickable-card fade-in">
+                <div class="top-info">
+                    <h4>Adobe After Effects</h4>
+                </div>
+                <div class="top-info">
+                    <p class="small-text">8+ Years</p>
+                    <p class="small-text">-2016</p>
+                </div>
+            </div>
+            <div class="non-clickable-card fade-in">
+                <div class="top-info">
+                    <h4>Adobe Illustrator</h4>
+                </div>
+                <div class="top-info">
+                    <p class="small-text">4+ Years</p>
+                    <p class="small-text">-2020</p>
+                </div>
+            </div>
+            <div class="non-clickable-card fade-in">
+                <div class="top-info">
+                    <h4>Adobe Premiere Pro</h4>
+                </div>
+                <div class="top-info">
+                    <p class="small-text">4+ Years</p>
+                    <p class="small-text">-2020</p>
+                </div>
+            </div>
+            <div class="non-clickable-card fade-in">
+                <div class="top-info">
+                    <h4>Figma</h4>
+                </div>
+                <div class="top-info">
+                    <p class="small-text">4+ Years</p>
+                    <p class="small-text">-2020</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="s5">
+            <div class="line"></div>
+            <h2 id="content">Contact Me</h2>
+            <div class="contact-wrapper">
+            <a class="contact-card fade-in" href="https://se.linkedin.com/in/melvin-sk%C3%B6ld-2203b0288">
+                <div class="top-contact">
+                    <div class="title">
+                        <img class="logo" src="./Assets/img/linkedin-icon.svg" alt="icon">
+                        <h4>Linkedin</h4>
+                    </div>
+                </div>
+                <div class="bottom-contact">
+                    <img class="icon-small" src="./Assets/icons/arrow-up-right.svg" alt="">
+                    <p class="small-text">Melvin Sköld</p>
+                </div>
+            </a>
+            <a class="contact-card fade-in" href="https://www.instagram.com/skold.design/">
+                <div class="top-contact">
+                    <div class="title">
+                        <img class="logo" src="./Assets/img/instagram-logo.webp" alt="icon">
+                        <h4>Instagram</h4>
+                    </div>
+                </div>
+                <div class="bottom-contact">
+                    <img class="icon-small" src="./Assets/icons/arrow-up-right.svg" alt="">
+                    <p class="small-text">skold.design</p>
+                </div>
+            </a>
+            <a href="https://www.tiktok.com/@skold.design" class="contact-card fade-in">
+                <div class="top-contact">
+                    <div class="title">
+                        <img class="logo" src="./Assets/img/tiktok-white-icon.webp" alt="icon">
+                        <h4>Tiktok</h4>
+                    </div>
+                </div>
+                <div class="bottom-contact">
+                    <img class="icon-small" src="./Assets/icons/arrow-up-right.svg" alt="">
+                    <p class="small-text">skold.design</p>
+                </div>
+            </a>
+        </div>
+        </section>
+        <footer>
+            <img src="./Assets/img/Logo.svg" alt="logo">
+            <p class="small-text">&copy; 2024 Skold. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

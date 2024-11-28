@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melvin Sköld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/img/Logo.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <a href="./index.html"><img src="./Assets/img/Logo.svg" alt="logo" srcset=""></a>
+            <div id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="./index.html">Home</a>
+            <a href="">Services</a>
+            <a href="">About</a>
+          </div>
+    </nav>
+    <div class="wrapper">
+        <section class="videosection">
+        <div class="project-nav">
+            <a href="./index.html"><button class="tertiary-button"><img class="icon-large" src="./Assets/icons/arrow-back.svg" alt="">Home</button></a>
+            <a href="./index.html"><button class="secondary-button">next project<img class="icon-large" src="./Assets/icons/arrow-forward.svg" alt=""></button></a>
+        </div>
+            <video src="./Assets/vid/Health-Coach-Ad.mp4" controls pause muted></video>
+            <section class="video-info">
+                <div class="video-title">
+                    <h3>Puls - Innovation</h3>
+                    <h4>Motion Design & Ui/Ux</h4>
+                </div>
+                <div class="line"></div>
+                <div class="video-desc fade-in">
+                    <p>En AI-driven app som analyserar dina värden i realtid och varnar dig vid stresspåslag för att hjälpa dig upptäcka och hantera stress i tid. Med skräddarsydda förslag efter dina egna behag kan du minska stress och förbättra ditt välbefinnande, så att du kan leva ett mer balanserat liv.</p>
+                </div>
+                <button class="primary-button fade-in">Contact Me <img class="icon-large" src="./Assets/icons/arrow-up-right.svg" alt="" srcset=""></button>
+                </section>
+        </section>
+        <section class="project-s2">
+        <h2 class="fade-in">Process</h2>
+        <article class="tab-wrapper">
+            <div class="tab-container fade-in">
+                <button class="tab-card" onclick="dropDown(this)">
+                    <h3>Sketches</h3>
+                    <img src="./Assets/icons/arrow-down.svg" alt="arrow-down" class="icon-large">
+                </button>
+                <div class="tab-content">
+                    <h4>Logotype & UI Design Sketches</h4>
+                    <div class="img-wrapper">
+                    <img src="./Assets/img/Skiss1-puls.png" alt="" srcset="">
+                    <img src="./Assets/img/Skiss2-puls.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-container fade-in">
+                <button class="tab-card" onclick="dropDown(this)">
+                    <h3>Links</h3>
+                    <img src="./Assets/icons/arrow-down.svg" alt="arrow-down" class="icon-large">
+                </button>
+                <div class="tab-content">
+                    <a href="https://www.figma.com/design/Y8k7HRUvKCBXKVxwP4jGlF/MelvinSk%C3%B6ld_innovation?node-id=2-5&t=js7EDtwfBZ5NDW0H-1" target="_blank">Figma</a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <img src="./Assets/img/Logo.svg" alt="logo">
+        <p class="small-text">&copy; 2024 Skold. All rights reserved.</p>
+    </footer>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
